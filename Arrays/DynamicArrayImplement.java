@@ -45,7 +45,7 @@ class DynamicArray {
     }
 }
 
-public class Learn {
+public class DynamicArrayImplement {
     public static void main(String[] args) {
         DynamicArray da = new DynamicArray(3);
         da.set(1, 3);
