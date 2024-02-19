@@ -1,11 +1,11 @@
 package Arrays;
 
-class Stack {
+class StackLearn {
     private final int size;
     private final int[] arr;
     private int top;
 
-    public Stack(int size) {
+    public StackLearn(int size) {
         this.size = size;
         this.top = -1;
         arr = new int[size];
@@ -58,7 +58,7 @@ class Stack {
 
 public class StackImplement {
     public static void main(String[] args) {
-        Stack stack = new Stack(4);
+        StackLearn stack = new StackLearn(4);
 
         stack.push(1);
         stack.push(2);
