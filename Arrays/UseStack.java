@@ -6,8 +6,6 @@ import java.util.Stack;
 
 public class UseStack {
 
-    private static Stack<Integer> stack;
-
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         List<Integer> intList = Arrays.asList(11, 12, 13, 14, 15);
@@ -17,7 +15,7 @@ public class UseStack {
         stack.push(2);
 
 //        add list items into stack
-        boolean isAdded = stack.addAll(intList);
+        stack.addAll(intList);
 
         System.out.println(intList + " were added to the stack");
 
